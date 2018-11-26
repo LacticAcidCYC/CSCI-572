@@ -342,7 +342,7 @@ Bing, a division of Microsoft earned $1.8 billion
 
 Google’s organic search results are produced by a proprietary algorithm that is often being changed, so there are never any guarantees that someone continue to be highly ranked
 
-### (5) Who are focusing on developing and refining a company’s online presence?
+### *(5) Who are focusing on developing and refining a company’s online presence?
 
 Search engine optimizers(SEO)
 
@@ -354,11 +354,11 @@ b) Optimizing content to target certain keyword phrases
 
 c) Developing web page content that responds to each seeker’s interests
 
-### (7) What model do many search engines (including Google) use for advertising?
+### *(7) What model do many search engines (including Google) use for advertising?
 
 pay-per-click (PPC) model
 
-### (8) What is Adwords?
+### *(8) What is Adwords?
 
 It’s Google’s program for accepting pay-per-click ads. For every keyword phrase there is an auction where bidders agree to pay a certain amount to Google if their ad is clicked on.
 
@@ -370,7 +370,7 @@ It’s Google’s program for accepting pay-per-click ads. For every keyword phr
 
 - Name directories, files and images with the same key words or phrases
 
-### (10) What are the 4 types of keyword matching options in Adwords?
+### *(10) What are the 4 types of keyword matching options in Adwords?
 
 **Broad Match**
 
@@ -380,11 +380,11 @@ It’s Google’s program for accepting pay-per-click ads. For every keyword phr
 
 **Negative Keyword Match**
 
-### (11) What is the default option of keyword matching in Adwords? What features does it have?
+### *(11) What is the default option of keyword matching in Adwords? What features does it have?
 
 The default is **Broad matching**. The results will show for expanded matches including synonyms and plurals, related terms and variations even if you don’t include these terms in your keyword list.
 
-### (12) What is the disadvantage of broad match and how to deal with it?
+### *(12) What is the disadvantage of broad match and how to deal with it?
 
 Broad matches are often less targeted than exact or phrase matches.  
 
@@ -446,7 +446,7 @@ Bidders may also establish an overall ad budget and limits for each kind of bid.
 
 Google may set a reserve or minimum price for each term. 
 
-### (20) How does Google rank the bidders in AdWords?
+### *(20) How does Google rank the bidders in AdWords?
 
 - Google estimates the “click-through rate” that each bidder would have if it were listed in the first spot. 
 
@@ -486,7 +486,7 @@ Conversely, those with high Quality Scores get higher ad ranks and lower CPC
 
 The average cost per click on AdWords varies by keyword and industry, but is roughly $2.32 on the search network and $0.58 on the display network
 
-### (26) The probability of clicking thorough may depend on which factors?
+### *(26) The probability of clicking thorough may depend on which factors?
 
 - Historical click performance of the ad
 
@@ -496,15 +496,15 @@ The average cost per click on AdWords varies by keyword and industry, but is rou
 
 - User click through rates
 
-### (27) What is landing page in AdWords?
+### *(27) What is landing page in AdWords?
 
 Landing pages are the pages that appear when a user clicks on your ad
 
-### (28) What is AdSense?
+### *(28) What is AdSense?
 
 **AdSense from Google is a service for placing Google ads on web pages.** 
 
-### (29) Which kinds of ads besides cost-per-click do Google offer in AdSense?
+### *(29) Which kinds of ads besides cost-per-click do Google offer in AdSense?
 
 - *Cost per Thousand* displays, CPM
 
@@ -597,31 +597,31 @@ The Ad Exchange consolidated the integration of ad networks
 
 ## 4. Knowledge Systems
 
-### (1) What is a knowledgebase?
+### *(1) What is a knowledgebase?
 
 A **knowledgebase** (KB) is a technology used to store complex structured and unstructured information used by a computer system.
 
-### (2) What two elements does a knowledge base system consist of?
+### *(2) What two elements does a knowledge base system consist of?
 
 - **a *knowledge-base* that represents facts about the world, and** 
 
 - **an *inference engine* that can reason about those facts** (and use rules and other forms of logic to deduce new facts or highlight inconsistencies)
 
-### (3) List some examples of knowledgebase?
+### *(3) List some examples of knowledgebase?
 
 Freebase, Google's Knowledge Graph, Apple's Siri, IBM’s Watson
 
-### (4) What is a taxonomy?
+### *(4) What is a taxonomy?
 
 A **taxonomy** is usually only a hierarchy of concepts (i.e. the *only relation* between the concepts is parent/child, or subClass/superClass, or broader/narrower)
 
-### (5) What is an ontology?
+### *(5) What is an ontology?
 
 **The representation of knowledge in a knowledgebase.**
 
 In an **ontology**, *arbitrary complex relations* between concepts can be expressed as well, e.g. (*X marriedTo Y*; or *A worksFor B*; or *C locatedIn D*, etc )
 
-### (6) What is DBpedia?
+### *(6) What is DBpedia?
 
 **DBpedia** is a **crowd-sourced** community effort to extract structured information from Wikipedia  and make this information available on the Web. Data is represented using RDF and accessed using SPARQL (see W3C for details)
 
@@ -657,21 +657,21 @@ Taxonomies are narrower than ontologies since ontologies include a larger variet
 
 - Text-to-speech processing
 
-### (10) Which kind of graph can a knowledgebase be transformed into?
+### *(10) Which kind of graph can a knowledgebase be transformed into?
 
 A knowledgebase can be seen as a directed labeled multigraph, where the nodes are entities and the edges are relations.
 
-### (11) What is a multigraph?
+### *(11) What is a multigraph?
 
 A **multigraph** is a graph which is permitted to have multiple edges that have the same end nodes. Two vertices may be connected by more than one edge
 
-### (12) What does Resource Description Format (RDF) triple consist of?
+### *(12) What does Resource Description Format (RDF) triple consist of?
 
 subject, predicate, object
 
 主谓宾
 
-### (13) What are **Hyponym, Holonym and Hypernym?**
+### *(13) What are **Hyponym, Holonym and Hypernym?**
 
 **Hyponym**: More specific
 
@@ -679,7 +679,7 @@ subject, predicate, object
 
 **Hypernym**: A broad or superordinate
 
-### (14) What is inference engine?
+### *(14) What is inference engine?
 
 An **inference engine** is a component of a system that applies logical rules to a knowledgebase to deduce new information.
 
@@ -816,11 +816,11 @@ In Nupeida, contents can only be edited by experts. But in Wikipedia, contents c
 
 ## 5. Query Processing
 
-### (1) What’s the benefit of Considering Only Terms with High-idf Scores during query processing?
+### *(1) What’s the benefit of Considering Only Terms with High-idf Scores during query processing?
 
 Postings of low-idf terms have many docs ® these (many) docs get eliminated from the set of contenders.
 
-### (2) What’s the benefit of Considering Only Docs Containing Many Query Terms?
+### *(2) What’s the benefit of Considering Only Docs Containing Many Query Terms?
 
 Easy to implement in postings traversal
 
@@ -832,7 +832,7 @@ Easy to implement in postings traversal
 
 At query time, only compute scores for docs in the champion list of some query term.
 
-### (4) What is Static Quality Scores Heuristic?
+### *(4) What is Static Quality Scores Heuristic?
 
 We want top-ranking documents to be both *relevant* and *authoritative*. 
 
@@ -840,7 +840,7 @@ We want top-ranking documents to be both *relevant* and *authoritative*.
 
  *Authority* is typically a query-independent property of a document, and we may assign to each document a *query-independent* quality score in [0,1] to each document *d*. Denote this by *g(d), g stands for goodness.*
 
-### (5) List some Examples of high authority signals for web pages?
+### *(5) List some Examples of high authority signals for web pages?
 
 - Wikipedia among websites
 
@@ -850,7 +850,7 @@ We want top-ranking documents to be both *relevant* and *authoritative*.
 
 - High PageRank
 
-### (6) How to calculate net score combining cosine relevance and authority?
+### *(6) How to calculate net score combining cosine relevance and authority?
 
 net-score(*q,d*) = *g(d) +* cosine(*q,d*)
 
@@ -862,7 +862,7 @@ We could use some other linear combination, assigning different weights to the t
 
 - Seek top-*K* results from only the docs in these champion lists
 
-### (8) What is High and Low Lists Heuristic for query processing?
+### *(8) What is High and Low Lists Heuristic for query processing?
 
 For each term, we maintain two postings lists called *high* and *low*. Think of *high* as the champion list
 
@@ -912,11 +912,11 @@ The highest content relevance scores were found among the results for positions 
 
 It’s rising for years.
 
-### (12) What is click through rate?
+### *(12) What is click through rate?
 
 The Click-Through Rate measures the average percentage of users who click on the result at each position on the SERP*. (Search Engine Results Page)
 
-### (13) What is bounce rate?
+### *(13) What is bounce rate?
 
 The Bounce Rate measures the percentage of users who only click on the URL from Google’s search results, without visiting any other URLs on the domain, and then return back to the SERP*.
 
@@ -954,7 +954,7 @@ Naturally Google search is the default on Chrome; Yahoo is the default search en
 
 Use a microphone to give a spoken query like “how old is Obama”, and after getting the result, send a follow-up query like “how tall is he”.
 
-### (22) What is a database shard?
+### *(22) What is a database shard?
 
 A database **shard** is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a **shard**. Each **shard** is held on a separate database server instance, to spread the load.
 
@@ -983,11 +983,11 @@ No, Searching the index must be implemented elsewhere
 
 100% Java, no dependencies. Offered by the Apache Software Foundation
 
-### (4) What is Solr?
+### *(4) What is Solr?
 
 A full text search **server** based on Lucene
 
-### (5) How does Solr communicates with Lucene?
+### *(5) How does Solr communicates with Lucene?
 
 Communicates with Lucene via XML/HTTP, JSON Interfaces
 
@@ -1009,7 +1009,7 @@ JAVA 5
 
 - Web Administration Interface
 
-### (8) Which kind of inverted index does Lucene store?
+### *(8) Which kind of inverted index does Lucene store?
 
 Positional inverted index
 
@@ -1017,7 +1017,7 @@ Positional inverted index
 
 Create tokens using a Tokenizer and/or applying Filters (Token Filters)
 
-### (10) How does Lucene decide similarity?
+### *(10) How does Lucene decide similarity?
 
 Lucene scores using a combination of TF-IDF and vector closeness
 
@@ -1025,7 +1025,7 @@ Lucene scores using a combination of TF-IDF and vector closeness
 
 **Cosine-similarity(query_vector, doc_vector): V(q) * V(d) / (|V(q)| * |V(d)|)**
 
-### (11) In the formula of TF-IDF: W(x,y)=tf(x,y) * log(N / df(x) ), what does every term mean?
+### *(11) In the formula of TF-IDF: W(x,y)=tf(x,y) * log(N / df(x) ), what does every term mean?
 
 tf(x,y): term frequency of x in y
 
@@ -1033,7 +1033,7 @@ N: total number of documents
 
 df(x): number of document containing x
 
-### (12) In the formula of cosine-similarity(query_vector, document_vector) = V(q) * V(d)/|V(q)|*|V(d)|, what does every term mean?
+### *(12) In the formula of cosine-similarity(query_vector, document_vector) = V(q) * V(d)/|V(q)|*|V(d)|, what does every term mean?
 
 V(q)*V(d) is the dot product of the weighted vectors and |V(q)|, |V(d)| are the Euclidean norms of the vectors (square root of the sum of squares)
 
@@ -1079,7 +1079,7 @@ http://solr/select?q=electronics&sort=price+desc
 
 search electronics and sort by the price in decreasing order
 
-### (17) List some query types supported by Solr?
+### *(17) List some query types supported by Solr?
 
 - Single and multi-term queries
 
@@ -1105,7 +1105,7 @@ Apple.com, Netflix.com, Whitehouse.gov, Indeed.com, Twitter.com, LinkedIn.com
 
 **Ubuntu** is a Linux-based operating system on personal computers, smartphones and network servers. It uses **Unity** as its default desktop environment
 
-### (21) What are Solr's five basic operations?
+### *(21) What are Solr's five basic operations?
 
 query, index, delete, commit, and optimize
 
@@ -1199,7 +1199,7 @@ MS Office, pdf, rtf, OpenDocument, images, mp3, zip ….
 
 ### (16) What is the default type of Sorl searching results?
 
-XML.
+JSON.
 
 ### (17) What is SolrJs?
 
@@ -1301,7 +1301,7 @@ Trie.
 
 The search for corrections is carried out from left-to-right. 
 
-The branching factor controls the amount of time required to search for spelling corrections.
+**The branching factor** controls the amount of time required to search for spelling corrections.
 
 ### *(15) What is the time complexity of Trie (prefix tree)?
 
