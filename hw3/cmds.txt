@@ -1,0 +1,65 @@
+# env setting
+export PATH=${JAVA_HOME}/bin:${PATH}
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+
+# upload from google cloud shell to hadoop cluster
+gcloud compute scp InvertedIndexJob.java lacticacidcyc@hadoop-cluster-1-m:~/
+
+# compile
+hadoop com.sun.tools.javac.Main InvertedIndexJob.java
+jar cf invertedindex.jar InvertedIndex*.class
+
+# copy from hdfs to google cloud storage
+hadoop fs -copyFromLocal ./invertedindex.jar
+hadoop fs -cp ./invertedindex.jar gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/JAR
+
+# job input
+InvertedIndexJob
+
+## input file
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/devdata
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/fulldata
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/extrainput
+
+## output file
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/devoutput
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/fulloutput
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/extraoutput
+
+## jar file path
+gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/JAR/invertedindex.jar
+
+## merge cmds
+hadoop fs -getmerge gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/devoutput ./devoutput.txt
+hadoop fs -copyFromLocal ./devoutput.txt
+hadoop fs -cp ./devoutput.txt gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/devoutput.txt
+
+hadoop fs -getmerge gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/fulloutput ./fulloutput.txt
+hadoop fs -copyFromLocal ./fulloutput.txt
+hadoop fs -cp ./fulloutput.txt gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/fulloutput.txt
+
+hadoop fs -getmerge gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/extraoutput ./extraoutput.txt
+hadoop fs -copyFromLocal ./extraoutput.txt
+hadoop fs -cp ./extraoutput.txt gs://dataproc-b0ce02a2-a208-4caa-938b-53ede58cc929-us-west2/extraoutput.txt
+
+# word count cmds
+grep -w 'incidence\|documentation\|tendency\|standard\|university\|interpret\|house\|friend' fulloutput.txt
+
+incidence
+documentation
+tendency
+standard
+university
+interpret
+house
+friend
+
+
+
+
+
+
+
+
+
+

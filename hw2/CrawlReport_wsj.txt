@@ -1,0 +1,37 @@
+Name: Yuchuan Chen
+USC ID: 4096061963
+News site crawled: wsj.com
+
+Fetch Statistics
+================
+# fetches attempted: 19997
+# fetches succeeded: 19530
+# fetches failed or aborted: 467
+
+Outgoing URLs:
+==============
+Total URLs extracted: 1802754
+# unique URLs extracted: 73322
+# unique URLs within News Site: 32315
+# unique URLs outside News Site: 41007
+
+Status Codes:
+=============
+200 OK: 19530
+301 Moved Permanently: 121
+302 Found: 310
+404 Not Found: 36
+
+File Sizes:
+===========
+< 1KB: 0
+1KB ~ <10KB: 3
+10KB ~ <100KB: 6004
+100KB ~ <1MB: 11973
+>= 1MB: 1550
+
+Content Types:
+==============
+text/html: 19522
+image/png: 2
+application/pdf: 6
